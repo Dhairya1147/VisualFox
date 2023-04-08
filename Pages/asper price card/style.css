@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.subscription{
+    background-color:rgb(209,222,235);
+}
+.subscription h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 70px;
+    margin-bottom: 40px;
+    font-size: 60px;
+    color: rgb(7, 44, 103);
+    text-align: center;
+}
+.pricingtable{
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* width: min(1600px,100%); */
+
+}
+.pricecard{
+    border-radius: 10px;
+    width: 290px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 1rem rgb(7, 44, 103);
+    transition: 0.5s;
+}
+.title{
+    text-align: center;
+    margin-top: 3px;
+    font-weight: 800;
+    font-size: 55px;
+    color:rgb(246, 90, 0);
+}
+.pricecontainer{
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(245, 165, 73);
+    /* box-shadow: inset 0px 0px 2em rgba(0, 0, 0, 0.3); */
+}
+.price{
+    text-align: center;
+    color:rgb(7, 44, 103);
+    font-size: 35px;
+    font-weight: 600;
+    padding: 5px 0 0 0;
+}
+ .validity{
+    text-align: center;
+    color: rgb(7, 44, 103);
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0 0 5px 0;
+ }
+.includes{
+    font-family:sans-serif;
+    text-align: center;
+    color: rgb(246, 90, 0);
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.benefitlist li{
+    font-family:sans-serif;
+    color: rgb(7, 44, 103);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.btncontainer {
+    text-align: center;
+}
+.btncontainer button {
+    margin-top: 10px;
+    padding: 0.5em 0.8em 0.5em 0.8em;
+    border-style: none;
+    font-size: 25px;
+    border-radius: 1000000px;
+    color: rgb(239, 239, 239);
+    font-weight: bold;
+    transition: .5s;
+   background-color:rgb(0,1,55) ;
+}
+.btncontainer button:hover {
+    /* box-shadow: inset 0px 0px 5px rgb(43, 15, 225); */
+    background-image: linear-gradient(45deg, #4e51ec 0%, #ed872e 70%);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:800px)
+{
+    .wrapper{
+        padding: 30px;
+    }
+    .wrapper h1{
+        font-size: 3rem;
+        font-weight: 600;
+
+    }
+    .content-box{
+        flex-direction: column;
+        width: 100%;
+    }
+    .card{
+        min-width: 300px;
+        margin: 10px auto;
+    }
+    .container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .design-container{
+        flex-direction: column;
+    
+    }
+    .ourdesign h2{
+        margin-bottom: 2rem;
+        font-size: 3rem;
+    }
+    .design-container{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .design-container .design-box{
+        height: 200px;
+    }
+    .subscription h2{
+        font-size: 3rem;
+    }
+    .pricingtable{
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        margin: 10px auto;  
+    }
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - VisualFox</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d55d6084f0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+          <div class="logo"><a href="">hello world</a></div>
+          <ul class="links">
+            <li><a href="">Home</a></li>
+            <li><a href="">Our Designs</a></li>
+            <li><a href="">Prizings</a></li>
+            <li><a href="">Our Services</a></li>
+          </ul>
+          <a href="#" class="action_btn">Get Started</a>
+          <div class="toggle_btn"><i class="fa-solid fa-bars-staggered"></i></div>
+        </div>
+        <div class="dropdown_menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">Our Designs</a></li>
+            <li><a href="">Prizings</a></li>
+            <li><a href="">Our Services</a></li>
+            <li><a href="#" class="action_btn">Get Started</a></li>
+        </div>
+      </header>
+    
+    <section id="section">
+        <div class="box">
+            <div class="bg-box">
+                <img src="images/login.png">
+            </div>
+            <div class="fbox">
+                <form action="#" method="POST">
+                    <h4 class="ftitle">Login your account</h4>
+                    <div class="form-fields">
+                        <div class="form-group">
+                            <input type="email" class="user-email" placeholder="Your email">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="user-pass" placeholder="Your Password">
+                        </div>
+                        <div class="fpass">
+                            <span class="fpass-btn">Forgot Password?</span>
+                        </div>
+                    </div>
+                    <input type="submit" value="Sign In" class="submit-btn">
+                </form>
+                <p class="signin">Don't have an account ? <a href="#">Sign Up</a></p>
+            </div>
+
+            <!-- Popup box for password reset -->
+            <div class="fpass-popup-box">
+                <div class="popup-close">
+                    <img src="images/close-button.png" class="close-btn">
+                </div>
+                <form action="#" method="POST">
+                    <h4 class="form-title">FORGOT PASSWORD?</h4>
+                    <p class="form-sub-title">Enter your email address and we will send you a link to reset your password.</p>
+                    <div class="form-fields">
+                        <div class="form-group">
+                            <input type="email" class="user-name" placeholder="Your email">
+                        </div>
+                    </div>
+                    <input type="submit" value="Send email" class="submit-btn">
+                </form>
+            </div>
+            
+            
+
+        </div>
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

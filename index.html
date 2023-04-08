@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VisualFox</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <script src="https://kit.fontawesome.com/d55d6084f0.js" crossorigin="anonymous"></script>
+</head>
+  <body>
+    <!-- navbar  -->
+    <header>
+      <div class="navbar">
+        <div class="logo"><img src="./img/logo.png" width="190px"></div>
+        <ul class="links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./Pages/asper our work/index.html" target="_blank">Our Designs</a></li>
+          <li><a href="./Pages/asper price card/index.html" target="_blank">Pricings</a></li>
+          <li><a href="./Pages/asper service page/index.html" target="_blank">Our Services</a></li>
+          <li><a href="./Pages/about-us/about-us.html" target="_blank">About Us</a></li>
+        </ul>
+        <a href="#" class="action_btn">Get Started</a>
+        <div class="toggle_btn"><i class="fa-solid fa-bars-staggered"></i></div>
+      </div>
+      <div class="dropdown_menu">
+          <li><a href="">Home</a></li>
+          <li><a href="">Our Designs</a></li>
+          <li><a href="">Pricings</a></li>
+          <li><a href="">Our Services</a></li>
+          <li><a href="#" class="action_btn">Get Started</a></li>
+      </div>
+
+    </header>
+
+    <script>
+      const toggleBtn = document.querySelector('.toggle_btn')
+      const toggleBtnIcon = document.querySelector('.toggle_btn i')
+      const dropDownMenu = document.querySelector('.dropdown_menu')
+
+      toggleBtn.onclick = function () {
+        dropDownMenu.classList.toggle('open')
+        const isOpen = dropDownMenu.classList.contains('open')
+
+        toggleBtnIcon.classList = isOpen
+        ? 'fa-solid fa-xmark'
+        : 'fa-solid fa-bars-staggered'
+      }
+    </script>
+    <!-- navbar ends -->
+
+
+    <!-- section 1 -->
+    <main>
+      <section class="hero">
+        <h2>Come OnBoard</h2>
+        <span class="dodo">Take a look at the vast ocean of </span><span class="fox">VisualFox</span>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, quisquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, neque.... </p>
+      </section>
+    </main>
+    <!-- section 1 ends -->
+
+
+
+    <!-- section 2 -->
+
+
+    <section class="whychoose">
+      <div class="main">
+        <div class="head">
+          <span class="span1"
+            >Why Choose VISUALFOX As as your Designer</span
+          >
+        </div>
+        <div class="box-container">
+          <!-- 1 -->
+          <div class="box">
+            <div class="h11">
+              <h1>80+</h1>
+              <span>Projects Delivered</span>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="box">
+            <div class="h11">
+              <h1>5+</h1>
+              <span>Average Resounce Experience</span>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="box">
+            <div class="h11">
+              <h1>96%</h1>
+              <span>Enterprise Client Retention</span>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="box">
+            <div class="h11">
+              <h1>30+</h1>
+              <span>Developers</span>
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="box">
+            <div class="h11">
+              <h1>15+</h1>
+              <span>Countries Served</span>
+            </div>
+          </div>
+          <!-- 6 -->
+          <div class="box">
+            <div class="h11">
+              <h1>4.7/5</h1>
+              <span>Costomer Ratings</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- section 2 ends -->
+
+
+    <!-- section 3 -->
+    <section class="related">
+      <div class="mainbox2">
+
+        <div class="head"> <h1>Our Services</h1> </div>
+      <div class="box-container">
+
+          <div class="box1">
+            <div class="head1"><span>UX Strategies</span></div>
+            <div class="para"><p>A UX strategy is a detailed plan for how to keep a user’s experience with a brand in line with the overall goals and objectives of the company. UX st to experience can become a reality while staying within predetermined company guidelines.</p></div>
+            <div class="button"><a href="#">Explore More</a></div>
+          </div>
+
+          <div class="box2">
+            <div class="head1"><span>Robust Design</span></div>
+            <div class="para"><p>A robust parameter design, introduced by Genichi Taguchi, is an experimental design used to exploit the interaction between control and uncontrollable noise variables by robustification—finding the settings of the control factors that minimize response variation from uncontrollable factors.Logos are composed of text, color, shape, and illustrations. It serves as a self-explanatory image that people can use to connect with your brand. This informs the audience while giving them</p></div>
+            <div class="button"><a href="#">Explore More</a></div>
+          </div>
+
+          <div class="box3">
+            <div class="head1"><span>Logo Design</span></div>
+            <div class="para"><p>Logo design is the process of designing a logo. Branding is the process of building a brand. To be more specific, it is a strategy designed by companies to help people to quickly identify their products and organization, and give them a reason products over the competition.</p></div>
+            <div class="button"><a href="#">Explore More</a></div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- section 3 ends -->
+
+    <!-- section 4 -->
+    <section class="ournumbers">
+      <div class="container">
+          <div class="number-box">
+              <h2>11000+</h2>
+              <h4>Clients</h4>
+          </div>
+          <div class="number-box">
+              <h2>10000+</h2>
+              <h4>Satisfied Customers</h4>
+          </div>
+          <div class="number-box">
+              <h2>30000+</h2>
+              <h4>Designs</h4>
+          </div>
+          <div class="number-box">
+              <h2>25000+</h2>
+              <h4>Projects Delivered</h4>
+          </div>
+      </div>
+  </section>
+
+
+
+    <!-- section 4 ends -->
+
+    
+
+
+    <!-- section 5 -->
+
+    <section class="last">
+      <div class="Section9">
+        <div class="headlast">
+          <h1>Enhance User Experience With our great graphic Development</h1>
+        </div>
+        <p class="paralast">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolore officia nisi, fugit inventore quos ducimus tempore voluptate, a et suscipit cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, praesentium?
+        </p>
+        <div class="java4">
+          <button>Talk To Us</button>
+        </div>
+      </div>
+    </section>
+    
+    <!-- section 5 ends -->
+
+
+    <!-- section 3 -->
+    <section class="section3">
+      <h1 style="color: black;">Our almni clients</h1>
+      <div class="marquee">
+        <marquee loop="infinite" behavior="" direction="right" scroll-amount="15">
+          <img src="./img/pngmarquee/Adani.png" alt="">
+          <img src="./img/pngmarquee/Argon-Medical-Devices.png" alt="">
+          <img src="./img/pngmarquee/Astrazeneca.png" alt="">
+          <img src="./img/pngmarquee/GMB.png" alt="">
+          <img src="./img/pngmarquee/Hitachi.png" alt="">
+          <img src="./img/pngmarquee/Basel-University.png" alt="">
+          <img src="./img/pngmarquee/Exide.png" alt="">
+          <img src="./img/pngmarquee/Indian-Oil.png" alt="">
+          <img src="./img/pngmarquee/Uhn.png" alt="">
+          <img src="./img/pngmarquee/Tata.png" alt="">
+          <img src="./img/pngmarquee/Change-Healthcare.png" alt="">
+          <img src="./img/pngmarquee/Isro.png" alt="">
+          <img src="./img/pngmarquee/Adani.png" alt="">
+          <img src="./img/pngmarquee/Argon-Medical-Devices.png" alt="">
+          <img src="./img/pngmarquee/Astrazeneca.png" alt="">
+          <img src="./img/pngmarquee/GMB.png" alt="">
+          <img src="./img/pngmarquee/Hitachi.png" alt="">
+          <img src="./img/pngmarquee/Basel-University.png" alt="">
+          <img src="./img/pngmarquee/Exide.png" alt="">
+          <img src="./img/pngmarquee/Indian-Oil.png" alt="">
+          <img src="./img/pngmarquee/Uhn.png" alt="">
+          <img src="./img/pngmarquee/Tata.png" alt="">
+          <img src="./img/pngmarquee/Change-Healthcare.png" alt="">
+          <img src="./img/pngmarquee/Isro.png" alt="">
+          <img src="./img/pngmarquee/Adani.png" alt="">
+          <img src="./img/pngmarquee/Argon-Medical-Devices.png" alt="">
+          <img src="./img/pngmarquee/Astrazeneca.png" alt="">
+          <img src="./img/pngmarquee/GMB.png" alt="">
+          <img src="./img/pngmarquee/Hitachi.png" alt="">
+          <img src="./img/pngmarquee/Basel-University.png" alt="">
+          <img src="./img/pngmarquee/Exide.png" alt="">
+          <img src="./img/pngmarquee/Indian-Oil.png" alt="">
+          <img src="./img/pngmarquee/Uhn.png" alt="">
+          <img src="./img/pngmarquee/Tata.png" alt="">
+          <img src="./img/pngmarquee/Change-Healthcare.png" alt="">
+          <img src="./img/pngmarquee/Isro.png" alt="">
+          <img src="./img/pngmarquee/Adani.png" alt="">
+          <img src="./img/pngmarquee/Argon-Medical-Devices.png" alt="">
+          <img src="./img/pngmarquee/Astrazeneca.png" alt="">
+          <img src="./img/pngmarquee/GMB.png" alt="">
+          <img src="./img/pngmarquee/Hitachi.png" alt="">
+          <img src="./img/pngmarquee/Basel-University.png" alt="">
+          <img src="./img/pngmarquee/Exide.png" alt="">
+          <img src="./img/pngmarquee/Indian-Oil.png" alt="">
+          <img src="./img/pngmarquee/Uhn.png" alt="">
+          <img src="./img/pngmarquee/Tata.png" alt="">
+          <img src="./img/pngmarquee/Change-Healthcare.png" alt="">
+          <img src="./img/pngmarquee/Isro.png" alt="">
+          <img src="./img/pngmarquee/Adani.png" alt="">
+          <img src="./img/pngmarquee/Argon-Medical-Devices.png" alt="">
+          <img src="./img/pngmarquee/Astrazeneca.png" alt="">
+          <img src="./img/pngmarquee/GMB.png" alt="">
+          <img src="./img/pngmarquee/Hitachi.png" alt="">
+          <img src="./img/pngmarquee/Basel-University.png" alt="">
+          <img src="./img/pngmarquee/Exide.png" alt="">
+          <img src="./img/pngmarquee/Indian-Oil.png" alt="">
+          <img src="./img/pngmarquee/Uhn.png" alt="">
+          <img src="./img/pngmarquee/Tata.png" alt="">
+          <img src="./img/pngmarquee/Change-Healthcare.png" alt="">
+          <img src="./img/pngmarquee/Isro.png" alt="">
+          <img src="./img/pngmarquee/Adani.png" alt="">
+          <img src="./img/pngmarquee/Argon-Medical-Devices.png" alt="">
+          <img src="./img/pngmarquee/Astrazeneca.png" alt="">
+          <img src="./img/pngmarquee/GMB.png" alt="">
+          <img src="./img/pngmarquee/Hitachi.png" alt="">
+          <img src="./img/pngmarquee/Basel-University.png" alt="">
+          <img src="./img/pngmarquee/Exide.png" alt="">
+          <img src="./img/pngmarquee/Indian-Oil.png" alt="">
+          <img src="./img/pngmarquee/Uhn.png" alt="">
+          <img src="./img/pngmarquee/Tata.png" alt="">
+          <img src="./img/pngmarquee/Change-Healthcare.png" alt="">
+          <img src="./img/pngmarquee/Isro.png" alt="">
+          <img src="./img/pngmarquee/Adani.png" alt="">
+          <img src="./img/pngmarquee/Argon-Medical-Devices.png" alt="">
+          <img src="./img/pngmarquee/Astrazeneca.png" alt="">
+          <img src="./img/pngmarquee/GMB.png" alt="">
+          <img src="./img/pngmarquee/Hitachi.png" alt="">
+          <img src="./img/pngmarquee/Basel-University.png" alt="">
+          <img src="./img/pngmarquee/Exide.png" alt="">
+          <img src="./img/pngmarquee/Indian-Oil.png" alt="">
+          <img src="./img/pngmarquee/Uhn.png" alt="">
+          <img src="./img/pngmarquee/Tata.png" alt="">
+          <img src="./img/pngmarquee/Change-Healthcare.png" alt="">
+          <img src="./img/pngmarquee/Isro.png" alt="">
+          <img src="./img/pngmarquee/Adani.png" alt="">
+          <img src="./img/pngmarquee/Argon-Medical-Devices.png" alt="">
+          <img src="./img/pngmarquee/Astrazeneca.png" alt="">
+          <img src="./img/pngmarquee/GMB.png" alt="">
+          <img src="./img/pngmarquee/Hitachi.png" alt="">
+          <img src="./img/pngmarquee/Basel-University.png" alt="">
+          <img src="./img/pngmarquee/Exide.png" alt="">
+          <img src="./img/pngmarquee/Indian-Oil.png" alt="">
+          <img src="./img/pngmarquee/Uhn.png" alt="">
+          <img src="./img/pngmarquee/Tata.png" alt="">
+          <img src="./img/pngmarquee/Change-Healthcare.png" alt="">
+          <img src="./img/pngmarquee/Isro.png" alt="">
+          <img src="./img/pngmarquee/Adani.png" alt="">
+          <img src="./img/pngmarquee/Argon-Medical-Devices.png" alt="">
+          <img src="./img/pngmarquee/Astrazeneca.png" alt="">
+          <img src="./img/pngmarquee/GMB.png" alt="">
+          <img src="./img/pngmarquee/Hitachi.png" alt="">
+          <img src="./img/pngmarquee/Basel-University.png" alt="">
+          <img src="./img/pngmarquee/Exide.png" alt="">
+          <img src="./img/pngmarquee/Indian-Oil.png" alt="">
+          <img src="./img/pngmarquee/Uhn.png" alt="">
+          <img src="./img/pngmarquee/Tata.png" alt="">
+          <img src="./img/pngmarquee/Change-Healthcare.png" alt="">
+          <img src="./img/pngmarquee/Isro.png" alt="">
+          <img src="./img/pngmarquee/Adani.png" alt="">
+          <img src="./img/pngmarquee/Argon-Medical-Devices.png" alt="">
+          <img src="./img/pngmarquee/Astrazeneca.png" alt="">
+          <img src="./img/pngmarquee/GMB.png" alt="">
+          <img src="./img/pngmarquee/Hitachi.png" alt="">
+          <img src="./img/pngmarquee/Basel-University.png" alt="">
+          <img src="./img/pngmarquee/Exide.png" alt="">
+          <img src="./img/pngmarquee/Indian-Oil.png" alt="">
+          <img src="./img/pngmarquee/Uhn.png" alt="">
+          <img src="./img/pngmarquee/Tata.png" alt="">
+          <img src="./img/pngmarquee/Change-Healthcare.png" alt="">
+          <img src="./img/pngmarquee/Isro.png" alt="">
+          <img src="./img/pngmarquee/Adani.png" alt="">
+          <img src="./img/pngmarquee/Argon-Medical-Devices.png" alt="">
+          <img src="./img/pngmarquee/Astrazeneca.png" alt="">
+          <img src="./img/pngmarquee/GMB.png" alt="">
+          <img src="./img/pngmarquee/Hitachi.png" alt="">
+          <img src="./img/pngmarquee/Basel-University.png" alt="">
+          <img src="./img/pngmarquee/Exide.png" alt="">
+          <img src="./img/pngmarquee/Indian-Oil.png" alt="">
+          <img src="./img/pngmarquee/Uhn.png" alt="">
+          <img src="./img/pngmarquee/Tata.png" alt="">
+          <img src="./img/pngmarquee/Change-Healthcare.png" alt="">
+          <img src="./img/pngmarquee/Isro.png" alt="">
+          <img src="./img/pngmarquee/Adani.png" alt="">
+          <img src="./img/pngmarquee/Argon-Medical-Devices.png" alt="">
+          <img src="./img/pngmarquee/Astrazeneca.png" alt="">
+          <img src="./img/pngmarquee/GMB.png" alt="">
+          <img src="./img/pngmarquee/Hitachi.png" alt="">
+          <img src="./img/pngmarquee/Basel-University.png" alt="">
+          <img src="./img/pngmarquee/Exide.png" alt="">
+          <img src="./img/pngmarquee/Indian-Oil.png" alt="">
+          <img src="./img/pngmarquee/Uhn.png" alt="">
+          <img src="./img/pngmarquee/Tata.png" alt="">
+          <img src="./img/pngmarquee/Change-Healthcare.png" alt="">
+          <img src="./img/pngmarquee/Isro.png" alt="">
+          <img src="./img/pngmarquee/Adani.png" alt="">
+          <img src="./img/pngmarquee/Argon-Medical-Devices.png" alt="">
+          <img src="./img/pngmarquee/Astrazeneca.png" alt="">
+          <img src="./img/pngmarquee/GMB.png" alt="">
+          <img src="./img/pngmarquee/Hitachi.png" alt="">
+          <img src="./img/pngmarquee/Basel-University.png" alt="">
+          <img src="./img/pngmarquee/Exide.png" alt="">
+          <img src="./img/pngmarquee/Indian-Oil.png" alt="">
+          <img src="./img/pngmarquee/Uhn.png" alt="">
+          <img src="./img/pngmarquee/Tata.png" alt="">
+          <img src="./img/pngmarquee/Change-Healthcare.png" alt="">
+          <img src="./img/pngmarquee/Isro.png" alt="">
+          <img src="./img/pngmarquee/Adani.png" alt="">
+          <img src="./img/pngmarquee/Argon-Medical-Devices.png" alt="">
+          <img src="./img/pngmarquee/Astrazeneca.png" alt="">
+          <img src="./img/pngmarquee/GMB.png" alt="">
+          <img src="./img/pngmarquee/Hitachi.png" alt="">
+          <img src="./img/pngmarquee/Basel-University.png" alt="">
+          <img src="./img/pngmarquee/Exide.png" alt="">
+          <img src="./img/pngmarquee/Indian-Oil.png" alt="">
+          <img src="./img/pngmarquee/Uhn.png" alt="">
+          <img src="./img/pngmarquee/Tata.png" alt="">
+          <img src="./img/pngmarquee/Change-Healthcare.png" alt="">
+          <img src="./img/pngmarquee/Isro.png" alt="">
+          <img src="./img/pngmarquee/Adani.png" alt="">
+          <img src="./img/pngmarquee/Argon-Medical-Devices.png" alt="">
+          <img src="./img/pngmarquee/Astrazeneca.png" alt="">
+          <img src="./img/pngmarquee/GMB.png" alt="">
+          <img src="./img/pngmarquee/Hitachi.png" alt="">
+          <img src="./img/pngmarquee/Basel-University.png" alt="">
+          <img src="./img/pngmarquee/Exide.png" alt="">
+          <img src="./img/pngmarquee/Indian-Oil.png" alt="">
+          <img src="./img/pngmarquee/Uhn.png" alt="">
+          <img src="./img/pngmarquee/Tata.png" alt="">
+          <img src="./img/pngmarquee/Change-Healthcare.png" alt="">
+          <img src="./img/pngmarquee/Isro.png" alt="">
+          <img src="./img/pngmarquee/Adani.png" alt="">
+          <img src="./img/pngmarquee/Argon-Medical-Devices.png" alt="">
+          <img src="./img/pngmarquee/Astrazeneca.png" alt="">
+          <img src="./img/pngmarquee/GMB.png" alt="">
+          <img src="./img/pngmarquee/Hitachi.png" alt="">
+          <img src="./img/pngmarquee/Basel-University.png" alt="">
+          <img src="./img/pngmarquee/Exide.png" alt="">
+          <img src="./img/pngmarquee/Indian-Oil.png" alt="">
+          <img src="./img/pngmarquee/Uhn.png" alt="">
+          <img src="./img/pngmarquee/Tata.png" alt="">
+          <img src="./img/pngmarquee/Change-Healthcare.png" alt="">
+          <img src="./img/pngmarquee/Isro.png" alt="">
+          <img src="./img/pngmarquee/Adani.png" alt="">
+          <img src="./img/pngmarquee/Argon-Medical-Devices.png" alt="">
+          <img src="./img/pngmarquee/Astrazeneca.png" alt="">
+          <img src="./img/pngmarquee/GMB.png" alt="">
+          <img src="./img/pngmarquee/Hitachi.png" alt="">
+          <img src="./img/pngmarquee/Basel-University.png" alt="">
+          <img src="./img/pngmarquee/Exide.png" alt="">
+          <img src="./img/pngmarquee/Indian-Oil.png" alt="">
+          <img src="./img/pngmarquee/Uhn.png" alt="">
+          <img src="./img/pngmarquee/Tata.png" alt="">
+          <img src="./img/pngmarquee/Change-Healthcare.png" alt="">
+          <img src="./img/pngmarquee/Isro.png" alt="">
+          <img src="./img/pngmarquee/Adani.png" alt="">
+          <img src="./img/pngmarquee/Argon-Medical-Devices.png" alt="">
+          <img src="./img/pngmarquee/Astrazeneca.png" alt="">
+          <img src="./img/pngmarquee/GMB.png" alt="">
+          <img src="./img/pngmarquee/Hitachi.png" alt="">
+          <img src="./img/pngmarquee/Basel-University.png" alt="">
+          <img src="./img/pngmarquee/Exide.png" alt="">
+          <img src="./img/pngmarquee/Indian-Oil.png" alt="">
+          <img src="./img/pngmarquee/Uhn.png" alt="">
+          <img src="./img/pngmarquee/Tata.png" alt="">
+          <img src="./img/pngmarquee/Change-Healthcare.png" alt="">
+          <img src="./img/pngmarquee/Isro.png" alt="">
+          <img src="./img/pngmarquee/Adani.png" alt="">
+          <img src="./img/pngmarquee/Argon-Medical-Devices.png" alt="">
+          <img src="./img/pngmarquee/Astrazeneca.png" alt="">
+          <img src="./img/pngmarquee/GMB.png" alt="">
+          <img src="./img/pngmarquee/Hitachi.png" alt="">
+          <img src="./img/pngmarquee/Basel-University.png" alt="">
+          <img src="./img/pngmarquee/Exide.png" alt="">
+          <img src="./img/pngmarquee/Indian-Oil.png" alt="">
+          <img src="./img/pngmarquee/Uhn.png" alt="">
+          <img src="./img/pngmarquee/Tata.png" alt="">
+          <img src="./img/pngmarquee/Change-Healthcare.png" alt="">
+          <img src="./img/pngmarquee/Isro.png" alt="">
+          <img src="./img/pngmarquee/Adani.png" alt="">
+          <img src="./img/pngmarquee/Argon-Medical-Devices.png" alt="">
+          <img src="./img/pngmarquee/Astrazeneca.png" alt="">
+          <img src="./img/pngmarquee/GMB.png" alt="">
+          <img src="./img/pngmarquee/Hitachi.png" alt="">
+          <img src="./img/pngmarquee/Basel-University.png" alt="">
+          <img src="./img/pngmarquee/Exide.png" alt="">
+          <img src="./img/pngmarquee/Indian-Oil.png" alt="">
+          <img src="./img/pngmarquee/Uhn.png" alt="">
+          <img src="./img/pngmarquee/Tata.png" alt="">
+          <img src="./img/pngmarquee/Change-Healthcare.png" alt="">
+          <img src="./img/pngmarquee/Isro.png" alt="">
+        </marquee>
+      </div>
+    </section>
+
+
+    <!-- section 3 ends -->
+
+    <!-- footer  -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>company</h4>
+            <ul>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">our services</a></li>
+              <li><a href="#">privacy policy</a></li>
+              <li><a href="#">affiliate program</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">returns</a></li>
+              <li><a href="#">Design status</a></li>
+              <li><a href="#">payment options</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Some Insights</h4>
+            <ul>
+              <li><a href="#">UI/UX</a></li>
+              <li><a href="#">LOGO</a></li>
+              <li><a href="#">Graphics</a></li>
+              <li><a href="#">Designs</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="https://instagram.com/team.visualfox?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lastpara"> <marquee behavior="blink" direction="right">Website is still under construction...</marquee>  </div>
+   </footer>
+
+
+
+
+    <!-- footer  ends -->
+
+
+</body>
+</html>
